@@ -5,7 +5,7 @@ A hands-on SQL learning repository documenting my progression from SQL fundament
 ## Learning Roadmap
 
 ### Beginner
-- [ ] Introduction to SQL
+- [DONE] Introduction to SQL
 - [ ] SQL Server environment setup
 - [ ] SELECT — querying data
 - [ ] DDL commands
