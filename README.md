@@ -1,201 +1,232 @@
 <div align="center">
 
-# 🗄️ SQL MASTERY
-### Microsoft SQL Server • T-SQL • Data Analytics • Data Engineering
+# ╔══════════════════════════════════════╗
+# ║         SQL MASTERY LAB              ║
+# ╚══════════════════════════════════════╝
 
-<img src="https://img.shields.io/badge/Microsoft%20SQL%20Server-T--SQL-CC2927?style=for-the-badge&logo=microsoftsqlserver&logoColor=white" />
-<img src="https://img.shields.io/badge/SQL-Analytics-0078D4?style=for-the-badge&logo=databricks&logoColor=white" />
-<img src="https://img.shields.io/badge/Status-IN%20PROGRESS-00C853?style=for-the-badge" />
+### MICROSOFT SQL SERVER  ·  T-SQL  ·  ANALYTICS  ·  DATA ENGINEERING
 
-**A hands-on journey from SQL fundamentals to advanced T-SQL, performance engineering, data warehousing, and analytical problem solving.**
+<p>
+  <img src="https://img.shields.io/badge/ENGINE-Microsoft%20SQL%20Server-CC2927?style=for-the-badge&logo=microsoftsqlserver&logoColor=white" />
+  <img src="https://img.shields.io/badge/LANGUAGE-T--SQL-0078D4?style=for-the-badge&logo=microsoft&logoColor=white" />
+  <img src="https://img.shields.io/badge/STATUS-BUILDING-00C853?style=for-the-badge" />
+</p>
+
+**A structured, hands-on SQL engineering repository — from first `SELECT` to advanced T-SQL, query optimization, data warehousing and analytics.**
 
 </div>
 
 ---
 
-## 🧊 THE SQL LAB
+## `01 // SYSTEM OVERVIEW`
 
 ```text
-                         ┌──────────────────────────────┐
-                         │       SQL MASTERY LAB        │
-                         │   MICROSOFT SQL SERVER       │
-                         └──────────────┬───────────────┘
-                                        │
-              ┌─────────────────────────┼─────────────────────────┐
-              ▼                         ▼                         ▼
-       ┌──────────────┐         ┌──────────────┐         ┌──────────────┐
-       │  FOUNDATION  │         │  ENGINEERING │         │   ANALYTICS  │
-       │ SELECT/DDL   │────────▶│ CTE/WINDOWS  │────────▶│ EDA / BI /   │
-       │ DML/FILTERS  │         │ INDEX/QUERY  │         │ BUSINESS SQL │
-       └──────────────┘         └──────────────┘         └──────────────┘
-                                        │
-                                        ▼
-                              ┌──────────────────┐
-                              │   DATA WAREHOUSE │
-                              │ BRONZE → SILVER  │
-                              │        → GOLD    │
-                              └──────────────────┘
+┌─────────────────────────────────────────────────────────────────┐
+│                         SQL MASTERY LAB                         │
+├──────────────────────┬──────────────────────┬───────────────────┤
+│     FOUNDATION       │      ENGINEERING     │     ANALYTICS     │
+│                      │                      │                   │
+│ SELECT               │ CTE                  │ Aggregations      │
+│ DDL / DML            │ Views                │ Window Functions  │
+│ Filtering            │ Stored Procedures    │ EDA               │
+│ Joins                │ Indexes              │ Business SQL      │
+│ Functions            │ Execution Plans      │ Advanced Analysis │
+└──────────────────────┴──────────────────────┴───────────────────┘
+                              │
+                              ▼
+                    ┌────────────────────┐
+                    │   DATA WAREHOUSE    │
+                    │                    │
+                    │  BRONZE → SILVER   │
+                    │       → GOLD       │
+                    └────────────────────┘
 ```
 
-> **Goal:** Build SQL skills that can be demonstrated through code, analysis, optimization, and projects — not just course completion.
+> **Mission:** turn raw data problems into reliable, efficient and explainable SQL solutions.
 
 ---
 
-## 📊 LEARNING DASHBOARD
+## `02 // COMMAND CENTER`
 
-| Layer | Focus | Progress |
-|---|---|---:|
-| 🟢 Foundation | SQL, SELECT, DDL, DML | `IN PROGRESS` |
-| 🟡 Intermediate | Joins, Functions, Aggregations, Windows | `UP NEXT` |
-| 🔴 Advanced | CTEs, Views, Indexes, Execution Plans | `UP NEXT` |
-| 🧠 Performance | Optimization, Partitions, Query Plans | `UP NEXT` |
-| 🏗️ Data Engineering | Bronze → Silver → Gold | `UP NEXT` |
-| 📈 Analytics | EDA & Advanced Analytics | `UP NEXT` |
-| 🎯 Interview | SQL Patterns & Problems | `UP NEXT` |
-
----
-
-# 🟢 01 — BEGINNER SQL
-
-- [x] Introduction to SQL
-- [ ] SQL Server environment setup
-- [ ] Query data with `SELECT`
-- [ ] DDL — `CREATE`, `ALTER`, `DROP`
-- [ ] DML — `INSERT`, `UPDATE`, `DELETE`
-
-### Core Skills
-`SELECT` · `FROM` · `DISTINCT` · `TOP` · `CREATE TABLE` · `ALTER TABLE` · `INSERT` · `UPDATE` · `DELETE`
+| MODULE | DOMAIN | STATUS |
+|:---:|---|:---:|
+| `01` | SQL Foundations | 🟢 **ACTIVE** |
+| `02` | Querying & Joins | ⚪ **UP NEXT** |
+| `03` | Analytical SQL | ⚪ **UP NEXT** |
+| `04` | Advanced T-SQL | ⚪ **UP NEXT** |
+| `05` | Query Performance | ⚪ **UP NEXT** |
+| `06` | Data Warehousing | ⚪ **UP NEXT** |
+| `07` | EDA & Analytics | ⚪ **UP NEXT** |
+| `08` | Interview Engineering | ⚪ **UP NEXT** |
 
 ---
 
-# 🟡 02 — INTERMEDIATE SQL
+## `03 // LEARNING STACK`
 
-### Querying & Filtering
-- [ ] Filtering data
-- [ ] SQL Joins — Basics
-- [ ] SQL Joins — Advanced
-- [ ] Set Operators
-
-### Functions
-- [ ] String Functions
-- [ ] Numeric Functions
-- [ ] Date & Time Functions
-- [ ] NULL Functions
-- [ ] `CASE` Statements
-
-### Analytical SQL
-- [ ] Aggregate Functions
-- [ ] Window Functions — Basics
-- [ ] Window Aggregate Functions
-- [ ] Window Ranking Functions
-- [ ] Window Value Functions
-
-### Core Skills
-`WHERE` · `AND/OR` · `LIKE` · `BETWEEN` · `INNER JOIN` · `LEFT JOIN` · `RIGHT JOIN` · `FULL JOIN` · `UNION` · `CASE` · `GROUP BY` · `HAVING` · `OVER()` · `PARTITION BY` · `ROW_NUMBER()` · `RANK()` · `DENSE_RANK()`
-
----
-
-# 🔴 03 — ADVANCED T-SQL
-
-- [ ] Advanced SQL Techniques
-- [ ] Subqueries
-- [ ] Common Table Expressions (CTEs)
-- [ ] Views
-- [ ] CTAS & Temporary Tables
-- [ ] Comparing Advanced Techniques
-- [ ] Stored Procedures
-- [ ] Triggers
-- [ ] Indexes
-- [ ] Execution Plans
-- [ ] Table Partitioning
-- [ ] SQL Performance Optimization
-- [ ] AI & SQL
-
-### Engineering Focus
-`CTE` · `VIEW` · `TEMP TABLE` · `STORED PROCEDURE` · `TRIGGER` · `INDEX` · `EXECUTION PLAN` · `PARTITIONING` · `QUERY OPTIMIZATION`
-
----
-
-# 🏗️ 04 — DATA ENGINEERING PROJECTS
-
-## SQL Data Warehouse
-
-A practical warehouse pipeline following a layered architecture:
+### 🟢 FOUNDATION
 
 ```text
- RAW DATA
-    │
-    ▼
-┌──────────┐
-│  BRONZE  │  Raw ingestion
-└────┬─────┘
-     │
-     ▼
-┌──────────┐
-│  SILVER  │  Cleaning + transformation
-└────┬─────┘
-     │
-     ▼
-┌──────────┐
-│   GOLD   │  Business-ready analytics
-└────┬─────┘
-     │
-     ▼
-  REPORTING
+SQL BASICS
+   │
+   ├── Introduction to SQL
+   ├── SQL Server Environment
+   ├── SELECT
+   ├── DDL
+   └── DML
 ```
 
-- [ ] Warehouse architecture
-- [ ] Bronze layer
-- [ ] Silver layer
-- [ ] Gold layer
-- [ ] Data quality checks
-- [ ] Transformation logic
-- [ ] Analytical queries
+**Core syntax:** `SELECT` · `FROM` · `DISTINCT` · `TOP` · `CREATE` · `ALTER` · `DROP` · `INSERT` · `UPDATE` · `DELETE`
 
-## Exploratory Data Analysis
+### 🟡 INTERMEDIATE
 
-- [ ] Data exploration
-- [ ] Distribution analysis
-- [ ] Trend analysis
-- [ ] Customer/product analysis
-- [ ] Business insights
+```text
+QUERY ENGINE
+   │
+   ├── Filtering
+   ├── Joins
+   ├── Set Operators
+   ├── String / Numeric / Date Functions
+   ├── NULL Handling
+   ├── CASE
+   ├── Aggregations
+   └── Window Functions
+```
 
-## Advanced Data Analytics
+**Core syntax:** `WHERE` · `JOIN` · `UNION` · `GROUP BY` · `HAVING` · `CASE` · `OVER()` · `PARTITION BY` · `ROW_NUMBER()` · `RANK()` · `DENSE_RANK()`
 
-- [ ] KPI analysis
-- [ ] Segmentation
-- [ ] Ranking
-- [ ] Time-series analysis
-- [ ] Business recommendations
+### 🔴 ADVANCED
+
+```text
+SQL ENGINEERING
+   │
+   ├── Subqueries
+   ├── CTEs
+   ├── Views
+   ├── CTAS / Temporary Tables
+   ├── Stored Procedures
+   ├── Triggers
+   ├── Indexes
+   ├── Execution Plans
+   ├── Partitioning
+   ├── Performance Optimization
+   └── AI + SQL
+```
 
 ---
 
-# 🎯 05 — SQL INTERVIEW PREPARATION
+## `04 // SKILL MATRIX`
+
+| Skill Area | Concepts |
+|---|---|
+| **Querying** | SELECT, filtering, sorting, aliases, expressions |
+| **Relational Logic** | INNER, LEFT, RIGHT, FULL, CROSS joins |
+| **Data Manipulation** | INSERT, UPDATE, DELETE |
+| **Data Definition** | CREATE, ALTER, DROP |
+| **Analytics** | GROUP BY, HAVING, aggregates |
+| **Window Analytics** | Ranking, running totals, value functions |
+| **Advanced SQL** | CTEs, subqueries, views, temp tables |
+| **Database Engineering** | Procedures, triggers, indexes |
+| **Performance** | Execution plans, indexing, partitioning, optimization |
+| **Data Engineering** | Bronze, Silver, Gold warehouse architecture |
+| **Analytics Projects** | EDA, KPIs, trends, segmentation, business insights |
+
+---
+
+## `05 // DATA WAREHOUSE PIPELINE`
 
 ```text
-EASY ──────────────── MEDIUM ──────────────── HARD
-  │                       │                     │
-  ▼                       ▼                     ▼
-Filtering             Joins                 CTEs
-GROUP BY              Windows               Subqueries
-Aggregations          Ranking               Optimization
-CASE                  Analytics             Complex SQL
+                         DATA SOURCES
+                              │
+                              ▼
+                 ┌────────────────────────┐
+                 │       BRONZE           │
+                 │    RAW / INGESTED      │
+                 └────────────┬───────────┘
+                              │
+                         CLEAN + TRANSFORM
+                              │
+                              ▼
+                 ┌────────────────────────┐
+                 │       SILVER           │
+                 │ CLEAN / CONSOLIDATED   │
+                 └────────────┬───────────┘
+                              │
+                      MODEL + AGGREGATE
+                              │
+                              ▼
+                 ┌────────────────────────┐
+                 │        GOLD            │
+                 │ BUSINESS-READY DATA    │
+                 └────────────┬───────────┘
+                              │
+                              ▼
+                 ┌────────────────────────┐
+                 │ ANALYTICS / REPORTING  │
+                 └────────────────────────┘
 ```
+
+### Warehouse objectives
+
+- Data ingestion
+- Data quality validation
+- Cleaning and transformation
+- Layered modelling
+- Business-ready datasets
+- Analytical SQL
+- KPI generation
+
+---
+
+## `06 // SQL INTERVIEW ENGINE`
+
+```text
+┌──────────────────────────────────────────────────────────┐
+│                  SQL PROBLEM SOLVING                     │
+├────────────────┬────────────────┬────────────────────────┤
+│   FOUNDATION   │    ANALYTICS   │       ADVANCED         │
+├────────────────┼────────────────┼────────────────────────┤
+│ Filtering      │ GROUP BY       │ CTEs                   │
+│ CASE           │ Aggregations   │ Subqueries             │
+│ Duplicates     │ Window Funcs   │ Gaps & Islands         │
+│ Sorting        │ Ranking        │ Running Totals         │
+│ Joins          │ Top-N          │ Query Optimization     │
+└────────────────┴────────────────┴────────────────────────┘
+```
+
+Planned practice:
 
 - [ ] SQL patterns
 - [ ] Joins & aggregations
 - [ ] Subqueries & CTEs
-- [ ] Window functions
-- [ ] Top-N problems
+- [ ] Window-function problems
 - [ ] Duplicate detection
+- [ ] Top-N queries
 - [ ] Running totals
 - [ ] Ranking problems
 - [ ] Gaps & islands
-- [ ] SQL interview questions
+- [ ] Business-case SQL
 
 ---
 
-# 🗂️ REPOSITORY ARCHITECTURE
+## `07 // PROJECT PIPELINE`
+
+### `PROJECT 01` — SQL DATA WAREHOUSE
+
+**Architecture:** `Bronze → Silver → Gold`
+
+**Focus:** ingestion · transformation · modelling · data quality · analytical queries
+
+### `PROJECT 02` — EXPLORATORY DATA ANALYSIS
+
+**Focus:** exploration · distributions · trends · segmentation · business insights
+
+### `PROJECT 03` — ADVANCED DATA ANALYTICS
+
+**Focus:** KPIs · ranking · time analysis · customer/product analysis · recommendations
+
+---
+
+## `08 // REPOSITORY MAP`
 
 ```text
 SQL-Mastery-Microsoft-SQL-Server-T-SQL/
@@ -234,11 +265,6 @@ SQL-Mastery-Microsoft-SQL-Server-T-SQL/
 │
 ├── 04-PROJECTS/
 │   ├── 01-SQL-Data-Warehouse/
-│   │   ├── bronze/
-│   │   ├── silver/
-│   │   ├── gold/
-│   │   ├── scripts/
-│   │   └── documentation/
 │   ├── 02-EDA/
 │   └── 03-Advanced-Data-Analytics/
 │
@@ -252,49 +278,66 @@ SQL-Mastery-Microsoft-SQL-Server-T-SQL/
 
 ---
 
-# 🧰 TECH STACK
+## `09 // TECHNOLOGY`
 
 <p align="center">
 
-<img src="https://img.shields.io/badge/Microsoft%20SQL%20Server-CC2927?style=flat-square&logo=microsoftsqlserver&logoColor=white" />
-<img src="https://img.shields.io/badge/T--SQL-0078D4?style=flat-square&logo=microsoft&logoColor=white" />
-<img src="https://img.shields.io/badge/SSMS-5C2D91?style=flat-square&logo=microsoft&logoColor=white" />
-<img src="https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white" />
+<img src="https://img.shields.io/badge/Microsoft_SQL_Server-CC2927?style=for-the-badge&logo=microsoftsqlserver&logoColor=white" />
+<img src="https://img.shields.io/badge/T--SQL-0078D4?style=for-the-badge&logo=microsoft&logoColor=white" />
+<img src="https://img.shields.io/badge/SSMS-5C2D91?style=for-the-badge&logo=microsoft&logoColor=white" />
+<img src="https://img.shields.io/badge/Git-181717?style=for-the-badge&logo=git&logoColor=white" />
+<img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" />
 
 </p>
 
-- **Database:** Microsoft SQL Server
-- **Query Language:** T-SQL
-- **IDE:** SQL Server Management Studio (SSMS)
-- **Version Control:** Git & GitHub
-
 ---
 
-# 📚 LEARNING RESOURCE
-
-This roadmap is aligned with the **SQL Full Course for Beginners — 30 Hours** by Data with Baraa.
-
-The course is used as a structured learning resource; the repository is intended for **my own implementations, exercises, notes, experiments, and projects**.
-
-[▶️ SQL Full Course — Data with Baraa](https://www.youtube.com/watch?v=SSKVgrwhzus)
-
----
-
-# 🚀 DEVELOPMENT PRINCIPLE
+## `10 // LEARNING PROTOCOL`
 
 ```text
-LEARN → WRITE → BREAK → DEBUG → OPTIMIZE → EXPLAIN → BUILD
+       LEARN
+         │
+         ▼
+       WRITE
+         │
+         ▼
+       TEST
+         │
+         ▼
+       DEBUG
+         │
+         ▼
+      OPTIMIZE
+         │
+         ▼
+      EXPLAIN
+         │
+         ▼
+       BUILD
 ```
 
-The objective is not simply to finish a course. The objective is to become comfortable taking a data problem, translating it into SQL, validating the result, improving query performance, and communicating the reasoning behind the solution.
+Every topic will be documented through **my own SQL implementations, exercises, experiments, notes and projects**.
+
+The objective is practical competency — not simply completing a video course.
+
+---
+
+## `11 // LEARNING SOURCE`
+
+Structured around **SQL Full Course for Beginners — 30 Hours** by **Data with Baraa**.
+
+[▶ View the course](https://www.youtube.com/watch?v=SSKVgrwhzus)
+
+The course is the learning reference; this repository contains my own implementations and learning work.
 
 ---
 
 <div align="center">
 
-### SQL is not just about retrieving data.
-### It's about turning data into decisions.
+## `SYSTEM STATUS: ONLINE`
 
-**Status: 🚧 BUILDING IN PUBLIC**
+**SQL MASTERY → BUILDING IN PUBLIC**
+
+`QUERY`  `ANALYZE`  `OPTIMIZE`  `BUILD`
 
 </div>
